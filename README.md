@@ -7,4 +7,4 @@ Folgt Später
 
 www.youtube.com/@Issue35 :PeakFiction: :AbsoluteCinema:
 
-![Joe](SleepyJoe.jpg)
+![Joe](SleepyJoe.png)
