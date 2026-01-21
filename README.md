@@ -9,6 +9,6 @@ www.youtube.com/@Issue35 :PeakFiction: :AbsoluteCinema:
 
       
            
-Roman \/
+Roman 
 
 ![Joe](SleepyJoe.png)
