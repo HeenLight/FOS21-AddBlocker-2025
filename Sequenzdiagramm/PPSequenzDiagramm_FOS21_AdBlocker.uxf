@@ -1,302 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="15.1">
-  <zoom_level>9</zoom_level>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>342</x>
-      <y>279</y>
-      <w>90</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>_:View_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>297</y>
-      <w>27</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>9</x>
-      <y>216</y>
-      <w>54</w>
-      <h>99</h>
-    </coordinates>
-    <panel_attributes>Actor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>693</x>
-      <y>279</y>
-      <w>90</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>_:AdBlocker_</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>729</x>
-      <y>297</y>
-      <w>27</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>342</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StartButton_Click()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>351</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StartAddBlocker()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>405</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-app_Status</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>414</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-button _StatusLabel()</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>495</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-allowWebsite_Click()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>504</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-allowWebsite()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>531</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StatusMsg</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>549</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StatusBox_Msg()</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>630</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-BlockWebsite_Click()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>639</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-blockWebsite()</panel_attributes>
-    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>684</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StatusMsg</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>36</x>
-      <y>693</y>
-      <w>360</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-StatusBox_Msg()</panel_attributes>
-    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>378</x>
-      <y>360</y>
-      <w>18</w>
-      <h>351</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>729</x>
-      <y>369</y>
-      <w>18</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>729</x>
-      <y>522</y>
-      <w>18</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>729</x>
-      <y>657</y>
-      <w>18</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>729</x>
-      <y>414</y>
-      <w>27</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>729</x>
-      <y>540</y>
-      <w>27</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>729</x>
-      <y>693</y>
-      <w>27</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>702</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>27</x>
-      <y>306</y>
-      <w>27</w>
-      <h>459</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
-  </element>
-</diagram>
+@startuml
+hide footbox
+title School AdBlocker - Sequence Diagram
+
+actor "User" as User
+participant "Form1\n(UI)" as UI
+participant "SettingsStore" as Settings
+participant "BlocklistCacheStore" as Cache
+participant "BlocklistUpdater" as Updater
+participant "RemoteListFetcher" as Fetcher
+participant "HostsParser" as Parser
+participant "RuleEngine" as Rules
+participant "SystemProxyManager" as SysProxy
+participant "ProxyHost" as Proxy
+
+== App startup ==
+User -> UI: Start app
+UI -> Settings: LoadOrCreateDefault(baseDir)
+UI -> Cache: new BlocklistCacheStore(baseDir)
+UI -> Updater: new BlocklistUpdater(cache, parser, fetcher)
+UI -> Updater: LoadFromCacheOrEmpty()
+Updater -> Cache: ReadDomains() + ReadCustomDomains()
+Updater --> UI: domains
+UI -> Rules: UpdateDomains(domains)
+
+== Start proxy ==
+User -> UI: Click Start
+UI -> SysProxy: SaveCurrent()
+UI -> SysProxy: ApplyLocalProxy("127.0.0.1:port")
+UI -> Proxy: Start(port, rules, ct)
+Proxy --> UI: OnLog("Proxy started")
+
+loop For each HTTP/HTTPS request
+  Proxy -> Rules: ShouldBlockHost(host)
+  alt Host blocked
+    Proxy --> UI: OnStatsChanged(blocked++)
+    Proxy --> UI: OnLog("Blocked ...")
+  else Host allowed
+    Proxy --> UI: OnStatsChanged(allowed++)
+    Proxy --> UI: OnLog("Allowed ...")
+  end
+end
+
+== Update rules ==
+User -> UI: Click Update
+UI -> Updater: UpdateNowAsync(sources)
+Updater -> Fetcher: FetchAsync(source)
+Fetcher --> Updater: FetchResult
+Updater -> Parser: ParseDomains(raw hosts)
+Updater -> Cache: WriteDomains(...)
+Updater -> Cache: WriteSourcesMeta(...)
+Updater --> UI: finalDomains
+UI -> Rules: UpdateDomains(finalDomains)
+
+== Stop ==
+User -> UI: Click Stop / Close app
+UI -> Proxy: Stop()
+UI -> SysProxy: Restore()
+
+@enduml
